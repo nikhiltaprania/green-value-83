@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <link rel="stylesheet" href="LoginPage.css">
+
+</head>
+
+<body>
+    <h1 class="logo">ShopV</h1>
+    <p>We make you happy...</p>
+
+    <div class="container" id="spin">
+
+        <!-- Registeration Page -->
+        <div class="form signup">
+            <h2 id="signupText">Sign Up</h2>
+            <div class="inputBox">
+                <input type="text" required="required" class="username">
+                <span>username</span>
+            </div>
+            <div class="inputBox">
+                <input type="email" required="required" class="email">
+                <span>email address</span>
+            </div>
+            <div class="inputBox">
+                <input type="password" required="required" class="pass">
+                <span>create password</span>
+            </div>
+            <div class="inputBox">
+                <input type="password" required="required" class="confirmPass">
+                <span>confirm password</span>
+            </div>
+            <div class="inputBox">
+                <input type="submit" value="Create Account" class="submit">
+            </div>
+            <p>
+                Already a member ? <a href="#" class="login"> Login</a>
+            </p>
+        </div>
+
+        <!-- Login Page -->
+        <div class="form signin">
+            <h2 id="signinText">Sign In</h2>
+            <div class="inputBox">
+                <input type="text" required="required" id="email">
+                <span>email</span>
+            </div>
+            <div class="inputBox">
+                <input type="password" required="required" id="pass">
+                <span>password</span>
+            </div>
+            <div class="inputBox">
+                <input type="submit" value="Login" class="SignIn">
+            </div>
+            <p>
+                Not Registered ? <a href="#" class="create">Create an account</a>
+            </p>
+        </div>
+
+    </div>
+
+    <!-- Spinner -->
+    <div class="spinner"></div>
+
+</body>
+
+<script src="LoginPage.js"></script>
+
+</html>
